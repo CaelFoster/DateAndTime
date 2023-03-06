@@ -1,22 +1,62 @@
-/* Diagnostic */
 
 * {
-  outline: 1px dotted darkgray;
+  outline: none;
 }
 
-/* Layout  */
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* verrtical center   */
-  align-content: center;
-  /*  extend to viewport height  */
-  height: 100vh;
+  align-content: center; 
+  height: 100vh; 
 }
 
-main time {
-/*  center content  */
+
+time {
   text-align: center;
 }
 
 
+.time {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.date {
+  font-size: 1.5rem;
+}
+
+
+.time data,
+.date data {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.hours,
+.minutes,
+.seconds {
+  color: #e74c3c; 
+}
+
+.amOrPM {
+  text-transform: uppercase;
+}
+
+.month {
+  text-transform: uppercase;
+  color: #3498db; 
+}
+
+.dayOfMonth {
+  font-size: 2.5rem;
+}
+
+.year {
+  font-size: 1.2rem;
+  color: #27ae60; 
+}
+
+.dayOfWeek {
+  font-size: 1.2rem;
+}
