@@ -71,7 +71,7 @@ time {
   height: 60px;
   background: #ffffff;
   /*my margin was missing*/
-  margin:20px auto;
+  margin:52px auto 0 auto;
   border: 1px solid #707070;
   border-radius: 53px;
   transition:250ms;
