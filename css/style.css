@@ -1,13 +1,17 @@
 
-* {
-  outline: none;
+
+body{
+  background:lightblue;
 }
 
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1fr, 1fr);
+  border:solid 20px black;
   align-content: center; 
-  height: 100vh; 
+  height: 50vh; 
+  margin:25vh 0 25vh 0;
+  background:lightpink;
 }
 
 
@@ -60,4 +64,28 @@ time {
 
 .dayOfWeek {
   font-size: 3rem;
+}
+
+.button {
+  width: 239px;
+  height: 60px;
+  background: #ffffff;
+  /*my margin was missing*/
+  margin:20px auto;
+  border: 1px solid #707070;
+  border-radius: 53px;
+  transition:250ms;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.button h2 {
+  line-height: 0px;
+  border-radius: 53px;
+}
+.button:hover,
+.button:hover h2 {
+  transition:250ms;
+  background-color: black;
+  color: white;
 }
